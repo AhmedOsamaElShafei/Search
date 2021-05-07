@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'arial',sans-serif;
+}
+.links {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+a {
+    color: midnightblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+li {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 17px;
+}
+.main{
+    margin: 350px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#searchbarcontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+.search {
+    display: flex;
+    outline: 0;
+    width: 548px;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #efefef;
+    border-radius: 15px;
+}
+.buttons {
+    margin: 10px;
+    width: 100%px;
+}
+.btn {
+    width: 150px;
+    text-align: center;
+    height: 35px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    outline: 0;
+    border: 2px solid #f5f5f5;
+    margin: 10px;
+    font-size: 17px;
+}
+.btn:hover {
+    border: 1px solid darkgray;
+}
+.row {
+    width: 100%;
+    padding: 10px;
+    margin: 3px 5px;
+    font-size: 20px;
+    display: inline-flex;
+}
+.boxes {
+    padding: 20px 0;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin: 10px;
+    text-align: left;
+}
+.input {
+    float: left;
+    vertical-align: middle;
+    display: inline-block;
+    width: 50%;
+    min-width: 167px;
+    min-height: 41px;
+}
+.inputbox {
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    outline: 0;
+    text-align: left;
+    border: 2px solid #eeeeee;
+    border-radius: 7px;
+    margin-left: 50px;
+}
+.advsearch {
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: #4d90fe;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    outline: 0;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #4d90fe;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.advsearch:hover {
+    border: 2px solid black;
+}
+.googleimg {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+}
+.text {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+}
